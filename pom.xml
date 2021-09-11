@@ -28,6 +28,11 @@
             <version>5.2.9.RELEASE</version>
         </dependency>
         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.2.9.RELEASE</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-core</artifactId>
             <version>9.0.39</version>
@@ -36,11 +41,6 @@
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
             <version>9.0.39</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-            <version>5.2.9.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
@@ -54,12 +54,11 @@
 <!--            <version>9.0.27.1</version>-->
 <!--            <scope>provided</scope>-->
 <!--        </dependency>-->
-
-        <!--        <dependency>-->
-        <!--            <groupId>com.heroku</groupId>-->
-        <!--            <artifactId>webapp-runner-main</artifactId>-->
-        <!--            <version>${webapp-runner.version}</version>-->
-        <!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.heroku</groupId>-->
+<!--            <artifactId>webapp-runner-main</artifactId>-->
+<!--            <version>${webapp-runner.version}</version>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
