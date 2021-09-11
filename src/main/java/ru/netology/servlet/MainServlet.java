@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import java.io.IOException;
 import java.nio.file.Files;
 
-public class MainServlet extends HttpServlet {
+public class MainServlet {
 
   public static void main(String[] args) throws LifecycleException, IOException {
     final var tomcat = new Tomcat();
